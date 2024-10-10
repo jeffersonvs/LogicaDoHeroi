@@ -1,24 +1,24 @@
 // Variáveis para armazenar o nome e a quantidade de experiência do herói
 let nomeHeroi = prompt("Digite o nome do herói:");
-let xpHeroi = parseInt(prompt("Digite a quantidade de XP do herói:"));
+let saldoVitorias = parseInt(prompt("Digite a quantidade de XP do herói:"));
 let nivelHeroi = ""; // Variável para armazenar o nível do herói
 
 // Estrutura de decisão para determinar o nível do herói com base no XP
-if (xpHeroi <= 1000) {
+if (saldoVitorias <= 1000) {
   nivelHeroi = "Ferro";
-} else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
+} else if (saldoVitorias >= 1001 && saldoVitorias <= 2000) {
   nivelHeroi = "Bronze";
-} else if (xpHeroi >= 2001 && xpHeroi <= 5000) {
+} else if (saldoVitorias >= 2001 && saldoVitorias <= 5000) {
   nivelHeroi = "Prata";
-} else if (xpHeroi >= 5001 && xpHeroi <= 7000) {
+} else if (saldoVitorias >= 5001 && saldoVitorias <= 7000) {
   nivelHeroi = "Ouro";
-} else if (xpHeroi >= 7001 && xpHeroi <= 8000) {
+} else if (saldoVitorias >= 7001 && saldoVitorias <= 8000) {
   nivelHeroi = "Platina";
-} else if (xpHeroi >= 8001 && xpHeroi <= 9000) {
+} else if (saldoVitorias >= 8001 && saldoVitorias <= 9000) {
   nivelHeroi = "Ascendente";
-} else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
+} else if (saldoVitorias >= 9001 && saldoVitorias <= 10000) {
   nivelHeroi = "Imortal";
-} else if (xpHeroi >= 10001) {
+} else if (saldoVitorias >= 10001) {
   nivelHeroi = "Radiante";
 }
 
